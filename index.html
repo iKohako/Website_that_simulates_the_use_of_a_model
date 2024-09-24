@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์คัดแยกแบคทีเรียของนักเรียนสุรนารีวิทยา</title>
+    <link rel="stylesheet" href="C:\Webre\styles.css">
+        <!-- Include TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="C:\Webre\script.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        <p>โครงงานคอมพิวเตอร์ของนักเรียนโรงเรียนสุรนารีวิทยา</p><br>
+
+        <h1>โปรแกรมช่วยเหลือบุคลากรทางการแพทย์<br>ในการคัดแยกเชื้อแบคทีเรียที่ระบาดในสัตว์เศรษฐกิจ</h1>
+       
+    </div>
+    <br>
+    <br>
+    <div class="boxs">
+        
+    <form id="upload-form">
+        <input type="file" id="file-input" accept="image/*" required>
+        <button type="submit">Upload and Classify</button>
+    </form>
+   </div>
+    <div id="result">
+        <h2>การติดเชื้อ:</h2>
+        <div id="output-images"></div>
+    </div>
+
+</body>
+</html>
